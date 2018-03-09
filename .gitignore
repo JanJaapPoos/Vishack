@@ -1,0 +1,26 @@
+temp/
+tmp/
+
+# OSX Junk
+.DS_Store
+
+# environment configuration
+env/
+
+## Python binaries
+__pycache__/
+*.pickle
+*.pyc
+
+## Notebooks
+# python code in notebooks folder
+/notebooks/*.py
+# Jupyter NB Checkpoints
+.ipynb_checkpoints/
+
+
+## Data
+# exclude external and processed data by default
+/data/processed
+/data/external
+/data/uncompressed
