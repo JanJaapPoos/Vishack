@@ -28,10 +28,10 @@ export default {
         opmerkingen: null,
         bot: 5.0,
         schar: 5.0,
-        new_lat: 51.37,
-        new_long: 3.2
+        new_lat: 51.616666666666667,
+        new_long: 3.3333333333333335
       },
-      geometry: { type: 'Point', coordinates: [3.2, 51.37] }
+      geometry: { type: 'Point', coordinates: [3.333333, 51.616667] }
     },
     {
       type: 'Feature',
@@ -58,10 +58,10 @@ export default {
         opmerkingen: null,
         bot: 5.0,
         schar: 10.0,
-        new_lat: 51.34,
-        new_long: 3.15
+        new_lat: 51.56666666666667,
+        new_long: 3.25
       },
-      geometry: { type: 'Point', coordinates: [3.15, 51.34] }
+      geometry: { type: 'Point', coordinates: [3.25, 51.566667] }
     },
     {
       type: 'Feature',
@@ -88,10 +88,10 @@ export default {
         opmerkingen: null,
         bot: 25.0,
         schar: 10.0,
-        new_lat: 51.32,
-        new_long: 3.08
+        new_lat: 51.533333333333331,
+        new_long: 3.1333333333333333
       },
-      geometry: { type: 'Point', coordinates: [3.08, 51.32] }
+      geometry: { type: 'Point', coordinates: [3.133333, 51.533333] }
     },
     {
       type: 'Feature',
@@ -118,10 +118,10 @@ export default {
         opmerkingen: null,
         bot: 10.0,
         schar: 5.0,
-        new_lat: 51.34,
-        new_long: 3.14
+        new_lat: 51.56666666666667,
+        new_long: 3.2333333333333334
       },
-      geometry: { type: 'Point', coordinates: [3.14, 51.34] }
+      geometry: { type: 'Point', coordinates: [3.233333, 51.566667] }
     },
     {
       type: 'Feature',
@@ -148,10 +148,10 @@ export default {
         opmerkingen: null,
         bot: 20.0,
         schar: 10.0,
-        new_lat: 51.36,
-        new_long: 3.17
+        new_lat: 51.6,
+        new_long: 3.2833333333333332
       },
-      geometry: { type: 'Point', coordinates: [3.17, 51.36] }
+      geometry: { type: 'Point', coordinates: [3.283333, 51.6] }
     },
     {
       type: 'Feature',
@@ -178,10 +178,10 @@ export default {
         opmerkingen: null,
         bot: 20.0,
         schar: null,
-        new_lat: 51.32,
-        new_long: 3.07
+        new_lat: 51.533333333333331,
+        new_long: 3.1166666666666667
       },
-      geometry: { type: 'Point', coordinates: [3.07, 51.32] }
+      geometry: { type: 'Point', coordinates: [3.116667, 51.533333] }
     },
     {
       type: 'Feature',
@@ -208,10 +208,10 @@ export default {
         opmerkingen: null,
         bot: 20.0,
         schar: null,
-        new_lat: 51.33,
-        new_long: 3.13
+        new_lat: 51.55,
+        new_long: 3.2166666666666668
       },
-      geometry: { type: 'Point', coordinates: [3.13, 51.33] }
+      geometry: { type: 'Point', coordinates: [3.216667, 51.55] }
     },
     {
       type: 'Feature',
@@ -238,10 +238,10 @@ export default {
         opmerkingen: null,
         bot: 25.0,
         schar: 10.0,
-        new_lat: 51.31,
-        new_long: 3.05
+        new_lat: 51.516666666666666,
+        new_long: 3.0833333333333335
       },
-      geometry: { type: 'Point', coordinates: [3.05, 51.31] }
+      geometry: { type: 'Point', coordinates: [3.083333, 51.516667] }
     },
     {
       type: 'Feature',
@@ -268,10 +268,10 @@ export default {
         opmerkingen: null,
         bot: 15.0,
         schar: null,
-        new_lat: 51.3,
-        new_long: 3.03
+        new_lat: 51.5,
+        new_long: 3.05
       },
-      geometry: { type: 'Point', coordinates: [3.03, 51.3] }
+      geometry: { type: 'Point', coordinates: [3.05, 51.5] }
     },
     {
       type: 'Feature',
@@ -298,10 +298,10 @@ export default {
         opmerkingen: null,
         bot: 20.0,
         schar: null,
-        new_lat: 51.31,
-        new_long: 3.04
+        new_lat: 51.516666666666666,
+        new_long: 3.0666666666666669
       },
-      geometry: { type: 'Point', coordinates: [3.04, 51.31] }
+      geometry: { type: 'Point', coordinates: [3.066667, 51.516667] }
     },
     {
       type: 'Feature',
@@ -328,10 +328,10 @@ export default {
         opmerkingen: null,
         bot: 10.0,
         schar: null,
-        new_lat: 51.34,
-        new_long: 3.13
+        new_lat: 51.56666666666667,
+        new_long: 3.2166666666666668
       },
-      geometry: { type: 'Point', coordinates: [3.13, 51.34] }
+      geometry: { type: 'Point', coordinates: [3.216667, 51.566667] }
     },
     {
       type: 'Feature',
@@ -358,10 +358,10 @@ export default {
         opmerkingen: null,
         bot: 5.0,
         schar: null,
-        new_lat: 51.36,
-        new_long: 3.18
+        new_lat: 51.6,
+        new_long: 3.3
       },
-      geometry: { type: 'Point', coordinates: [3.18, 51.36] }
+      geometry: { type: 'Point', coordinates: [3.3, 51.6] }
     },
     {
       type: 'Feature',
@@ -388,10 +388,10 @@ export default {
         opmerkingen: null,
         bot: 15.0,
         schar: null,
-        new_lat: 51.35,
-        new_long: 3.17
+        new_lat: 51.583333333333336,
+        new_long: 3.2833333333333332
       },
-      geometry: { type: 'Point', coordinates: [3.17, 51.35] }
+      geometry: { type: 'Point', coordinates: [3.283333, 51.583333] }
     },
     {
       type: 'Feature',
@@ -418,10 +418,10 @@ export default {
         opmerkingen: null,
         bot: 10.0,
         schar: null,
-        new_lat: 51.36,
-        new_long: 3.17
+        new_lat: 51.6,
+        new_long: 3.2833333333333332
       },
-      geometry: { type: 'Point', coordinates: [3.17, 51.36] }
+      geometry: { type: 'Point', coordinates: [3.283333, 51.6] }
     },
     {
       type: 'Feature',
@@ -448,10 +448,10 @@ export default {
         opmerkingen: null,
         bot: 10.0,
         schar: null,
-        new_lat: 51.32,
-        new_long: 3.07
+        new_lat: 51.533333333333331,
+        new_long: 3.1166666666666667
       },
-      geometry: { type: 'Point', coordinates: [3.07, 51.32] }
+      geometry: { type: 'Point', coordinates: [3.116667, 51.533333] }
     },
     {
       type: 'Feature',
@@ -478,10 +478,10 @@ export default {
         opmerkingen: null,
         bot: null,
         schar: null,
-        new_lat: 51.29,
+        new_lat: 51.483333333333334,
         new_long: 3.0
       },
-      geometry: { type: 'Point', coordinates: [3.0, 51.29] }
+      geometry: { type: 'Point', coordinates: [3.0, 51.483333] }
     },
     {
       type: 'Feature',
@@ -508,10 +508,10 @@ export default {
         opmerkingen: null,
         bot: 5.0,
         schar: null,
-        new_lat: 51.3,
-        new_long: 2.57
+        new_lat: 51.5,
+        new_long: 2.95
       },
-      geometry: { type: 'Point', coordinates: [2.57, 51.3] }
+      geometry: { type: 'Point', coordinates: [2.95, 51.5] }
     },
     {
       type: 'Feature',
@@ -538,10 +538,10 @@ export default {
         opmerkingen: null,
         bot: 5.0,
         schar: 10.0,
-        new_lat: 51.3,
-        new_long: 3.04
+        new_lat: 51.5,
+        new_long: 3.0666666666666669
       },
-      geometry: { type: 'Point', coordinates: [3.04, 51.3] }
+      geometry: { type: 'Point', coordinates: [3.066667, 51.5] }
     },
     {
       type: 'Feature',
@@ -568,10 +568,10 @@ export default {
         opmerkingen: null,
         bot: 10.0,
         schar: 10.0,
-        new_lat: 51.32,
-        new_long: 3.06
+        new_lat: 51.533333333333331,
+        new_long: 3.1
       },
-      geometry: { type: 'Point', coordinates: [3.06, 51.32] }
+      geometry: { type: 'Point', coordinates: [3.1, 51.533333] }
     },
     {
       type: 'Feature',
@@ -598,10 +598,10 @@ export default {
         opmerkingen: null,
         bot: 10.0,
         schar: 5.0,
-        new_lat: 51.34,
-        new_long: 3.14
+        new_lat: 51.56666666666667,
+        new_long: 3.2333333333333334
       },
-      geometry: { type: 'Point', coordinates: [3.14, 51.34] }
+      geometry: { type: 'Point', coordinates: [3.233333, 51.566667] }
     },
     {
       type: 'Feature',
@@ -628,10 +628,10 @@ export default {
         opmerkingen: null,
         bot: 5.0,
         schar: 10.0,
-        new_lat: 51.34,
-        new_long: 3.14
+        new_lat: 51.56666666666667,
+        new_long: 3.2333333333333334
       },
-      geometry: { type: 'Point', coordinates: [3.14, 51.34] }
+      geometry: { type: 'Point', coordinates: [3.233333, 51.566667] }
     },
     {
       type: 'Feature',
@@ -658,10 +658,10 @@ export default {
         opmerkingen: null,
         bot: 10.0,
         schar: 10.0,
-        new_lat: 51.34,
-        new_long: 3.15
+        new_lat: 51.56666666666667,
+        new_long: 3.25
       },
-      geometry: { type: 'Point', coordinates: [3.15, 51.34] }
+      geometry: { type: 'Point', coordinates: [3.25, 51.566667] }
     },
     {
       type: 'Feature',
@@ -688,10 +688,10 @@ export default {
         opmerkingen: null,
         bot: 45.0,
         schar: null,
-        new_lat: 51.32,
-        new_long: 3.07
+        new_lat: 51.533333333333331,
+        new_long: 3.1166666666666667
       },
-      geometry: { type: 'Point', coordinates: [3.07, 51.32] }
+      geometry: { type: 'Point', coordinates: [3.116667, 51.533333] }
     },
     {
       type: 'Feature',
@@ -718,10 +718,10 @@ export default {
         opmerkingen: null,
         bot: 45.0,
         schar: null,
-        new_lat: 51.3,
-        new_long: 3.06
+        new_lat: 51.5,
+        new_long: 3.1
       },
-      geometry: { type: 'Point', coordinates: [3.06, 51.3] }
+      geometry: { type: 'Point', coordinates: [3.1, 51.5] }
     },
     {
       type: 'Feature',
@@ -748,10 +748,10 @@ export default {
         opmerkingen: null,
         bot: 30.0,
         schar: null,
-        new_lat: 51.29,
+        new_lat: 51.483333333333334,
         new_long: 3.0
       },
-      geometry: { type: 'Point', coordinates: [3.0, 51.29] }
+      geometry: { type: 'Point', coordinates: [3.0, 51.483333] }
     },
     {
       type: 'Feature',
@@ -778,10 +778,10 @@ export default {
         opmerkingen: null,
         bot: 10.0,
         schar: null,
-        new_lat: 51.29,
-        new_long: 3.03
+        new_lat: 51.483333333333334,
+        new_long: 3.05
       },
-      geometry: { type: 'Point', coordinates: [3.03, 51.29] }
+      geometry: { type: 'Point', coordinates: [3.05, 51.483333] }
     },
     {
       type: 'Feature',
@@ -808,10 +808,10 @@ export default {
         opmerkingen: null,
         bot: 5.0,
         schar: null,
-        new_lat: 51.31,
-        new_long: 3.06
+        new_lat: 51.516666666666666,
+        new_long: 3.1
       },
-      geometry: { type: 'Point', coordinates: [3.06, 51.31] }
+      geometry: { type: 'Point', coordinates: [3.1, 51.516667] }
     },
     {
       type: 'Feature',
@@ -838,10 +838,10 @@ export default {
         opmerkingen: null,
         bot: null,
         schar: null,
-        new_lat: 51.33,
-        new_long: 3.08
+        new_lat: 51.55,
+        new_long: 3.1333333333333333
       },
-      geometry: { type: 'Point', coordinates: [3.08, 51.33] }
+      geometry: { type: 'Point', coordinates: [3.133333, 51.55] }
     },
     {
       type: 'Feature',
@@ -868,10 +868,10 @@ export default {
         opmerkingen: null,
         bot: null,
         schar: null,
-        new_lat: 51.34,
-        new_long: 3.11
+        new_lat: 51.56666666666667,
+        new_long: 3.1833333333333331
       },
-      geometry: { type: 'Point', coordinates: [3.11, 51.34] }
+      geometry: { type: 'Point', coordinates: [3.183333, 51.566667] }
     },
     {
       type: 'Feature',
@@ -898,10 +898,10 @@ export default {
         opmerkingen: null,
         bot: 10.0,
         schar: null,
-        new_lat: 51.32,
-        new_long: 3.06
+        new_lat: 51.533333333333331,
+        new_long: 3.1
       },
-      geometry: { type: 'Point', coordinates: [3.06, 51.32] }
+      geometry: { type: 'Point', coordinates: [3.1, 51.533333] }
     },
     {
       type: 'Feature',
@@ -928,10 +928,10 @@ export default {
         opmerkingen: null,
         bot: null,
         schar: null,
-        new_lat: 51.34,
-        new_long: 3.1
+        new_lat: 51.56666666666667,
+        new_long: 3.1666666666666665
       },
-      geometry: { type: 'Point', coordinates: [3.1, 51.34] }
+      geometry: { type: 'Point', coordinates: [3.166667, 51.566667] }
     },
     {
       type: 'Feature',
@@ -958,10 +958,10 @@ export default {
         opmerkingen: null,
         bot: null,
         schar: null,
-        new_lat: 51.34,
-        new_long: 3.11
+        new_lat: 51.56666666666667,
+        new_long: 3.1833333333333331
       },
-      geometry: { type: 'Point', coordinates: [3.11, 51.34] }
+      geometry: { type: 'Point', coordinates: [3.183333, 51.566667] }
     },
     {
       type: 'Feature',
@@ -988,10 +988,10 @@ export default {
         opmerkingen: null,
         bot: null,
         schar: null,
-        new_lat: 51.32,
-        new_long: 3.06
+        new_lat: 51.533333333333331,
+        new_long: 3.1
       },
-      geometry: { type: 'Point', coordinates: [3.06, 51.32] }
+      geometry: { type: 'Point', coordinates: [3.1, 51.533333] }
     },
     {
       type: 'Feature',
@@ -1018,10 +1018,10 @@ export default {
         opmerkingen: null,
         bot: null,
         schar: null,
-        new_lat: 51.34,
-        new_long: 3.09
+        new_lat: 51.56666666666667,
+        new_long: 3.15
       },
-      geometry: { type: 'Point', coordinates: [3.09, 51.34] }
+      geometry: { type: 'Point', coordinates: [3.15, 51.566667] }
     },
     {
       type: 'Feature',
@@ -1048,10 +1048,10 @@ export default {
         opmerkingen: null,
         bot: null,
         schar: null,
-        new_lat: 51.34,
-        new_long: 3.1
+        new_lat: 51.56666666666667,
+        new_long: 3.1666666666666665
       },
-      geometry: { type: 'Point', coordinates: [3.1, 51.34] }
+      geometry: { type: 'Point', coordinates: [3.166667, 51.566667] }
     },
     {
       type: 'Feature',
@@ -1078,10 +1078,10 @@ export default {
         opmerkingen: null,
         bot: null,
         schar: null,
-        new_lat: 51.32,
-        new_long: 3.06
+        new_lat: 51.533333333333331,
+        new_long: 3.1
       },
-      geometry: { type: 'Point', coordinates: [3.06, 51.32] }
+      geometry: { type: 'Point', coordinates: [3.1, 51.533333] }
     },
     {
       type: 'Feature',
@@ -1108,10 +1108,10 @@ export default {
         opmerkingen: null,
         bot: null,
         schar: null,
-        new_lat: 51.34,
-        new_long: 3.09
+        new_lat: 51.56666666666667,
+        new_long: 3.15
       },
-      geometry: { type: 'Point', coordinates: [3.09, 51.34] }
+      geometry: { type: 'Point', coordinates: [3.15, 51.566667] }
     },
     {
       type: 'Feature',
@@ -1138,10 +1138,10 @@ export default {
         opmerkingen: null,
         bot: 5.0,
         schar: null,
-        new_lat: 51.34,
-        new_long: 3.1
+        new_lat: 51.56666666666667,
+        new_long: 3.1666666666666665
       },
-      geometry: { type: 'Point', coordinates: [3.1, 51.34] }
+      geometry: { type: 'Point', coordinates: [3.166667, 51.566667] }
     },
     {
       type: 'Feature',
@@ -1168,10 +1168,10 @@ export default {
         opmerkingen: null,
         bot: 5.0,
         schar: null,
-        new_lat: 51.34,
-        new_long: 3.13
+        new_lat: 51.56666666666667,
+        new_long: 3.2166666666666668
       },
-      geometry: { type: 'Point', coordinates: [3.13, 51.34] }
+      geometry: { type: 'Point', coordinates: [3.216667, 51.566667] }
     },
     {
       type: 'Feature',
@@ -1198,10 +1198,10 @@ export default {
         opmerkingen: null,
         bot: null,
         schar: null,
-        new_lat: 51.34,
-        new_long: 3.12
+        new_lat: 51.56666666666667,
+        new_long: 3.2
       },
-      geometry: { type: 'Point', coordinates: [3.12, 51.34] }
+      geometry: { type: 'Point', coordinates: [3.2, 51.566667] }
     },
     {
       type: 'Feature',
@@ -1228,10 +1228,10 @@ export default {
         opmerkingen: null,
         bot: null,
         schar: null,
-        new_lat: 51.33,
-        new_long: 3.11
+        new_lat: 51.55,
+        new_long: 3.1833333333333331
       },
-      geometry: { type: 'Point', coordinates: [3.11, 51.33] }
+      geometry: { type: 'Point', coordinates: [3.183333, 51.55] }
     },
     {
       type: 'Feature',
@@ -1258,10 +1258,10 @@ export default {
         opmerkingen: null,
         bot: null,
         schar: null,
-        new_lat: 51.33,
-        new_long: 3.08
+        new_lat: 51.55,
+        new_long: 3.1333333333333333
       },
-      geometry: { type: 'Point', coordinates: [3.08, 51.33] }
+      geometry: { type: 'Point', coordinates: [3.133333, 51.55] }
     },
     {
       type: 'Feature',
@@ -1288,10 +1288,10 @@ export default {
         opmerkingen: null,
         bot: 20.0,
         schar: null,
-        new_lat: 51.34,
-        new_long: 3.14
+        new_lat: 51.56666666666667,
+        new_long: 3.2333333333333334
       },
-      geometry: { type: 'Point', coordinates: [3.14, 51.34] }
+      geometry: { type: 'Point', coordinates: [3.233333, 51.566667] }
     },
     {
       type: 'Feature',
@@ -1318,10 +1318,10 @@ export default {
         opmerkingen: null,
         bot: 10.0,
         schar: null,
-        new_lat: 51.32,
-        new_long: 3.07
+        new_lat: 51.533333333333331,
+        new_long: 3.1166666666666667
       },
-      geometry: { type: 'Point', coordinates: [3.07, 51.32] }
+      geometry: { type: 'Point', coordinates: [3.116667, 51.533333] }
     },
     {
       type: 'Feature',
@@ -1348,10 +1348,10 @@ export default {
         opmerkingen: null,
         bot: null,
         schar: null,
-        new_lat: 51.31,
-        new_long: 3.03
+        new_lat: 51.516666666666666,
+        new_long: 3.05
       },
-      geometry: { type: 'Point', coordinates: [3.03, 51.31] }
+      geometry: { type: 'Point', coordinates: [3.05, 51.516667] }
     },
     {
       type: 'Feature',
@@ -1378,10 +1378,10 @@ export default {
         opmerkingen: null,
         bot: null,
         schar: null,
-        new_lat: 51.31,
-        new_long: 3.03
+        new_lat: 51.516666666666666,
+        new_long: 3.05
       },
-      geometry: { type: 'Point', coordinates: [3.03, 51.31] }
+      geometry: { type: 'Point', coordinates: [3.05, 51.516667] }
     },
     {
       type: 'Feature',
@@ -1408,10 +1408,10 @@ export default {
         opmerkingen: null,
         bot: null,
         schar: null,
-        new_lat: 51.3,
-        new_long: 3.02
+        new_lat: 51.5,
+        new_long: 3.0333333333333332
       },
-      geometry: { type: 'Point', coordinates: [3.02, 51.3] }
+      geometry: { type: 'Point', coordinates: [3.033333, 51.5] }
     },
     {
       type: 'Feature',
@@ -1438,10 +1438,10 @@ export default {
         opmerkingen: null,
         bot: null,
         schar: null,
-        new_lat: 51.33,
-        new_long: 3.1
+        new_lat: 51.55,
+        new_long: 3.1666666666666665
       },
-      geometry: { type: 'Point', coordinates: [3.1, 51.33] }
+      geometry: { type: 'Point', coordinates: [3.166667, 51.55] }
     },
     {
       type: 'Feature',
@@ -1468,10 +1468,10 @@ export default {
         opmerkingen: null,
         bot: 15.0,
         schar: null,
-        new_lat: 51.33,
-        new_long: 3.12
+        new_lat: 51.55,
+        new_long: 3.2
       },
-      geometry: { type: 'Point', coordinates: [3.12, 51.33] }
+      geometry: { type: 'Point', coordinates: [3.2, 51.55] }
     },
     {
       type: 'Feature',
@@ -1498,10 +1498,10 @@ export default {
         opmerkingen: null,
         bot: 10.0,
         schar: null,
-        new_lat: 51.3,
-        new_long: 3.04
+        new_lat: 51.5,
+        new_long: 3.0666666666666669
       },
-      geometry: { type: 'Point', coordinates: [3.04, 51.3] }
+      geometry: { type: 'Point', coordinates: [3.066667, 51.5] }
     },
     {
       type: 'Feature',
@@ -1528,10 +1528,10 @@ export default {
         opmerkingen: null,
         bot: 5.0,
         schar: null,
-        new_lat: 51.32,
-        new_long: 3.04
+        new_lat: 51.533333333333331,
+        new_long: 3.0666666666666669
       },
-      geometry: { type: 'Point', coordinates: [3.04, 51.32] }
+      geometry: { type: 'Point', coordinates: [3.066667, 51.533333] }
     },
     {
       type: 'Feature',
@@ -1558,10 +1558,10 @@ export default {
         opmerkingen: null,
         bot: 10.0,
         schar: null,
-        new_lat: 51.3,
-        new_long: 3.01
+        new_lat: 51.5,
+        new_long: 3.0166666666666666
       },
-      geometry: { type: 'Point', coordinates: [3.01, 51.3] }
+      geometry: { type: 'Point', coordinates: [3.016667, 51.5] }
     },
     {
       type: 'Feature',
@@ -1588,10 +1588,10 @@ export default {
         opmerkingen: null,
         bot: 10.0,
         schar: null,
-        new_lat: 51.3,
-        new_long: 3.01
+        new_lat: 51.5,
+        new_long: 3.0166666666666666
       },
-      geometry: { type: 'Point', coordinates: [3.01, 51.3] }
+      geometry: { type: 'Point', coordinates: [3.016667, 51.5] }
     },
     {
       type: 'Feature',
@@ -1618,10 +1618,10 @@ export default {
         opmerkingen: null,
         bot: 10.0,
         schar: null,
-        new_lat: 51.31,
-        new_long: 3.02
+        new_lat: 51.516666666666666,
+        new_long: 3.0333333333333332
       },
-      geometry: { type: 'Point', coordinates: [3.02, 51.31] }
+      geometry: { type: 'Point', coordinates: [3.033333, 51.516667] }
     },
     {
       type: 'Feature',
@@ -1648,10 +1648,10 @@ export default {
         opmerkingen: null,
         bot: 10.0,
         schar: null,
-        new_lat: 51.32,
-        new_long: 3.04
+        new_lat: 51.533333333333331,
+        new_long: 3.0666666666666669
       },
-      geometry: { type: 'Point', coordinates: [3.04, 51.32] }
+      geometry: { type: 'Point', coordinates: [3.066667, 51.533333] }
     },
     {
       type: 'Feature',
@@ -1678,10 +1678,10 @@ export default {
         opmerkingen: null,
         bot: 10.0,
         schar: null,
-        new_lat: 51.31,
-        new_long: 3.01
+        new_lat: 51.516666666666666,
+        new_long: 3.0166666666666666
       },
-      geometry: { type: 'Point', coordinates: [3.01, 51.31] }
+      geometry: { type: 'Point', coordinates: [3.016667, 51.516667] }
     },
     {
       type: 'Feature',
@@ -1708,10 +1708,10 @@ export default {
         opmerkingen: null,
         bot: 10.0,
         schar: null,
-        new_lat: 51.33,
-        new_long: 3.07
+        new_lat: 51.55,
+        new_long: 3.1166666666666667
       },
-      geometry: { type: 'Point', coordinates: [3.07, 51.33] }
+      geometry: { type: 'Point', coordinates: [3.116667, 51.55] }
     },
     {
       type: 'Feature',
@@ -1738,10 +1738,10 @@ export default {
         opmerkingen: null,
         bot: 10.0,
         schar: null,
-        new_lat: 51.32,
-        new_long: 3.03
+        new_lat: 51.533333333333331,
+        new_long: 3.05
       },
-      geometry: { type: 'Point', coordinates: [3.03, 51.32] }
+      geometry: { type: 'Point', coordinates: [3.05, 51.533333] }
     }
   ]
 }
