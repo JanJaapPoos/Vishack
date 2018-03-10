@@ -36,3 +36,15 @@
 .login-form {
   background-size: cover;
 }
+
+.menu {
+  float: right;
+  background-color: rgba(255,255,255,0.5);
+  .menu-item {
+    height: 100px;
+    border-bottom: 1px solid black;
+    .material-icons {
+      font-size: 40pt;
+    }
+  }
+}
