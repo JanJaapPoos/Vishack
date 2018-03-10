@@ -10,40 +10,60 @@ import Menu from './components/Menu'
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 
 const config = {
-  apiKey: "AIzaSyDh89laiSSyRsJkGMVoZ8C_QQ0Ekgt4WpA",
-  authDomain: "vishack-d2af3.firebaseapp.com",
-  databaseURL: "https://vishack-d2af3.firebaseio.com",
-  projectId: "vishack-d2af3",
-  storageBucket: "vishack-d2af3.appspot.com",
-  messagingSenderId: "244277080689"
-};
-
-if (!firebase.apps.length) {
-  firebase.initializeApp(config);
+  apiKey: 'AIzaSyDh89laiSSyRsJkGMVoZ8C_QQ0Ekgt4WpA',
+  authDomain: 'vishack-d2af3.firebaseapp.com',
+  databaseURL: 'https://vishack-d2af3.firebaseio.com',
+  projectId: 'vishack-d2af3',
+  storageBucket: 'vishack-d2af3.appspot.com',
+  messagingSenderId: '244277080689'
 }
 
-const messaging = firebase.messaging();
-messaging.usePublicVapidKey("BASTSsT5Cz7XnyYNArw_YhtR3QRruks16Hc8hEPGP6n5yVcOj45z4TTsuAWRWZBhxtEao2ovwDaV9csbm4e_O3U");
-messaging.requestPermission()
-.then(function() {
-  console.log('Notification permission granted.');
-  messaging.getToken()
-  .then(function(currentToken) {
-    if (currentToken) {
-//      sendTokenToServer(currentToken);
-//      updateUIForPushEnabled(currentToken);
-    } else {
-      // Show permission request.
-      console.log('No Instance ID token available. Request permission to generate one.');
-    }
+if (!firebase.apps.length) {
+  firebase.initializeApp(config)
+}
+
+const messaging = firebase.messaging()
+messaging.usePublicVapidKey(
+  'BASTSsT5Cz7XnyYNArw_YhtR3QRruks16Hc8hEPGP6n5yVcOj45z4TTsuAWRWZBhxtEao2ovwDaV9csbm4e_O3U'
+)
+messaging
+  .requestPermission()
+  .then(function() {
+    console.log('Notification permission granted.')
+    messaging
+      .getToken()
+      .then(function(currentToken) {
+        if (currentToken) {
+          localStorage.setItem('firebase', currentToken)
+          return fetch({
+            method: 'POST',
+            url: `https://iid.googleapis.com/iid/v1/${currentToken}/rel/topics/vis-test-topic`,
+            headers: {
+              'Content-Type': 'application/json',
+              Authorization: `key=${config.key}`
+            }
+          })
+          //      sendTokenToServer(currentToken);
+          //      updateUIForPushEnabled(currentToken);
+        } else {
+          // Show permission request.
+          console.log(
+            'No Instance ID token available. Request permission to generate one.'
+          )
+        }
+      })
+      .catch(function(err) {
+        console.log('An error occurred while retrieving token. ', err)
+      })
   })
   .catch(function(err) {
-    console.log('An error occurred while retrieving token. ', err);
-  });
- })
-.catch(function(err) {
-  console.log('Unable to get permission to notify.', err);
-});
+    console.log('Unable to get permission to notify.', err)
+  })
+
+messaging.onMessage(function(payload) {
+  alert('Message received. ', payload)
+  // ...
+})
 
 class App extends Component {
   state = {

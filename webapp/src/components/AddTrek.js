@@ -1,19 +1,19 @@
 import React from 'react'
-import image from '../assets/login-form.jpg'
+import { Link } from 'react-router-dom'
 
 export default class Login extends React.Component {
   render() {
     return (
-      <div class="add-trek">
+      <div className="add-trek text-center">
         <h1>Voeg een trek toe</h1>
         <div className="choice-button">
           <i className="material-icons">system_update_alt</i>
           <h4>Importeer Pulse Data Sheet (PDS)</h4>
         </div>
-        <div className="choice-button">
+        <Link to="/add-trek-manual" className="choice-button d-block">
           <i className="material-icons">create</i>
           <h4>Noteer trek-gegevens</h4>
-        </div>
+        </Link>
       </div>
     )
   }
