@@ -13,12 +13,12 @@ export default class Login extends React.Component {
             <div className="text-center container ">
               <div>
                 <h4>Algemene trekgegevens</h4>
-                <div className="input-group input-group-lg mb-4"><input type="datetime-local" placeHolder="Begindatum en -tijd" className="form-control" onChange={e => this.setState({name: e.target.value})}/></div>
+                <div className="input-group input-group-lg mb-4"><input type="text" placeHolder="10/03/2018 13:20" className="form-control" onChange={e => this.setState({name: e.target.value})}/></div>
                 <div className="input-group input-group-lg mb-4"><input type="datetime-local" placeHolder="Einddatum en -tijd" className="form-control" onChange={e => this.setState({name: e.target.value})}/></div>
                 <div className="input-group input-group-lg mb-4"><input type="text" placeHolder="51°37'; 03°20'; 4,5 knopen" className="form-control" onChange={e => this.setState({name: e.target.value})}/></div>
               </div>
             </div>
-          </div>
+          </div> <br/><br/><br/>
           <div className="add-trek-manual-block">
             <div className="text-center container ">
               <div>
@@ -66,27 +66,7 @@ export default class Login extends React.Component {
                         <a class="dropdown-item" href="#">Krabbenpoten</a>
                         <a class="dropdown-item" href="#">Kreeft</a>
                         <a class="dropdown-item" href="#">Langoestine</a>
-                        <a class="dropdown-item" href="#">Leng</a>
-                        <a class="dropdown-item" href="#">Makreel</a>
-                        <a class="dropdown-item" href="#">Mul</a>
-                        <a class="dropdown-item" href="#">Pieterman</a>
-                        <a class="dropdown-item" href="#">Plashaai/gladde haai</a>
-                        <a class="dropdown-item" href="#">Rode poon</a>
-                        <a class="dropdown-item" href="#">Ruwe/stekelrog</a>
-                        <a class="dropdown-item" href="#">Schar</a>
-                        <a class="dropdown-item" href="#">Schartong</a>
-                        <a class="dropdown-item" href="#">Schelvis</a>
-                        <a class="dropdown-item" href="#">Sint Jacobsschelp</a>
-                        <a class="dropdown-item" href="#">Snotdolf</a>
-                        <a class="dropdown-item" href="#">Steenbolk /steenwijting</a>
-                        <a class="dropdown-item" href="#">Tongschar</a>
-                        <a class="dropdown-item" href="#">Wijting</a>
-                        <a class="dropdown-item" href="#">Wulk</a>
-                        <a class="dropdown-item" href="#">Zeebaars</a>
-                        <a class="dropdown-item" href="#">Zeeduivel</a>
-                        <a class="dropdown-item" href="#">Zeekat</a>
-                        <a class="dropdown-item" href="#">Zeewolf</a>
-                        <a class="dropdown-item" href="#">Zonnevis</a>
+                        <a class="dropdown-item" href="#">Etc.</a>
                       </div>
                     </td>
                     <td class="dropdown">
@@ -99,7 +79,7 @@ export default class Login extends React.Component {
                       </div>
                     </td>
                     <td class="">
-                      <div className="input-group"><input type="text" placeHolder="Gewicht" className="form-control" onChange={e => this.setState({name: e.target.value})}/></div>
+                      <div className="input-group"><input type="text" placeHolder="Gewicht (kg)" className="form-control" onChange={e => this.setState({name: e.target.value})}/></div>
                     </td>
                   </tr>
                 </table>

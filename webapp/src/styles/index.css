@@ -34,7 +34,13 @@
   background-size: cover; }
 
 .add-trek .add-trek-manual .add-trek-manual-block {
-  border: 1px solid black; }
+  border: 1px solid black;
+  background-color: white;
+  height: 300px; }
+  .add-trek .add-trek-manual .add-trek-manual-block tr {
+    border-bottom: 1px solid black; }
+    .add-trek .add-trek-manual .add-trek-manual-block tr .material-icons {
+      font-size: 13pt; }
 
 .popup-container .popup {
   border: 1px solid black;
