@@ -1,6 +1,7 @@
 import React from 'react'
 import _ from 'lodash'
 import { Map, TileLayer, CircleMarker, Popup, GeoJSON } from 'react-leaflet'
+import chroma from 'chroma-js'
 import week2 from '../geoJSON/week_2'
 import week3 from '../geoJSON/week_3'
 import week4 from '../geoJSON/week_4'
@@ -74,8 +75,11 @@ export default class SimpleExample extends React.Component {
   }
 
   render() {
-    console.log(this.state)
+    const max = _.max(
+      _.map(_.flatMap(treks, 'map.features'), 'properties.totaal_kg')
+    )
     const position = [this.state.lat, this.state.lng]
+    const scale = chroma.scale(['red', 'yellow', 'green'])
     return [
       <div key="selector" className="map-selector text-left p-3">
         <h3>Weken</h3>
@@ -150,13 +154,17 @@ export default class SimpleExample extends React.Component {
             // pointToLayer={this.renderPoint.bind(this)}
           />
         ))}
-        {_.map(this.state.treks, ({ map, label }) => {
+        {_.flatMap(this.state.treks, ({ map, label }) => {
           return _.map(map.features, point => {
             return (
               <CircleMarker
-                key={`${point.properties.datum}${point.properties.tijd}`}
+                key={`${label}${point.properties.datum}${
+                  point.properties.tijd
+                }`}
                 center={point.geometry.coordinates.reverse()}
-                radius={3}
+                radius={4}
+                // fillColor={scale(point.properties.totaal_kg / max).hex()}
+                color={scale(Math.sqrt(point.properties.totaal_kg / max)).hex()}
               >
                 <Popup>{this.getPopup(point.properties, label)}</Popup>
               </CircleMarker>

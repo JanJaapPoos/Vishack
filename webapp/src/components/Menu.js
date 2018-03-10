@@ -16,7 +16,7 @@ const Menu = props => (
     <Link to="/" className="menu-item">
       <i className="material-icons">map</i>
     </Link>
-    <Link to="/" className="menu-item">
+    <Link to="/share" className="menu-item">
       <i className="material-icons">share</i>
     </Link>
     <Link to="/meldingen" className="menu-item">
