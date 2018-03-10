@@ -4,6 +4,7 @@ import Login from './components/Login'
 import AddTrek from './components/AddTrek'
 import AddTrekManual from './components/AddTrekManual'
 import Share from './components/Share'
+import Popup from './components/Popup'
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 
 class App extends Component {
@@ -32,6 +33,9 @@ class App extends Component {
               </Route>
               <Route exact path="/add-trek-manual">
                 <AddTrekManual />
+              </Route>
+              <Route exact path="/popup">
+                <Popup />
               </Route>
             </Switch>
           </div>

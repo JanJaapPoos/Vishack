@@ -44,6 +44,12 @@
 .add-trek .add-trek-manual .add-trek-manual-block {
   border: 1px solid black; }
 
+.popup-container .popup {
+  border: 1px solid black;
+  width: 90%;
+  height: 100px;
+  text-align: center; }
+
 .choice-button {
   width: 200px;
   height: 200px;
