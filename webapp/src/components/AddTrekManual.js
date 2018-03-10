@@ -49,11 +49,6 @@ export default class Login extends React.Component {
                     </td>
                   </tr>
                   <tr>
-                    <td class="">Stenen</td>
-                    <td class=""></td>
-                    <td class="">5 kg</td>
-                  </tr>
-                  <tr>
                     <td class="dropdown">
                       <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         Vissoort
