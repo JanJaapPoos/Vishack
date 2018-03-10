@@ -41,6 +41,16 @@
 .login-form {
   background-size: cover; }
 
+.add-trek .add-trek-manual .add-trek-manual-block {
+  border: 1px solid black; }
+
+.choice-button {
+  width: 200px;
+  height: 200px;
+  border: 1px solid black; }
+  .choice-button .material-icons {
+    font-size: 40pt; }
+
 .zwevende-add .material-icons {
   font-size: 72pt; }
 

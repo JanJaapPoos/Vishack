@@ -1,6 +1,8 @@
 import React, { Component } from 'react'
 import Leaflet from './Leaflet'
 import Login from './components/Login'
+import AddTrek from './components/AddTrek'
+import AddTrekManual from './components/AddTrekManual'
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 
 class App extends Component {
@@ -20,6 +22,12 @@ class App extends Component {
             <Switch>
               <Route exact path="/">
                 <Leaflet />
+              </Route>
+              <Route exact path="/add-trek">
+                <AddTrek />
+              </Route>
+              <Route exact path="/add-trek-manual">
+                <AddTrekManual />
               </Route>
             </Switch>
           </div>
