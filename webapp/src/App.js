@@ -1,8 +1,11 @@
 import React, { Component } from 'react'
-import logo from './logo.svg'
 import Leaflet from './Leaflet'
 import Login from './components/Login'
 import * as firebase from 'firebase'
+import AddTrek from './components/AddTrek'
+import AddTrekManual from './components/AddTrekManual'
+import Share from './components/Share'
+import Popup from './components/Popup'
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 
 const config = {
@@ -43,7 +46,7 @@ messaging.requestPermission()
 
 class App extends Component {
   state = {
-    name: null,
+    name: 'Jacob',
     page: 'home'
   }
 
@@ -53,26 +56,52 @@ class App extends Component {
     }
     return (
       <Router>
-        <div className="App">
-          <header className="App-header">
-            <img src={logo} className="App-logo" alt="logo" />
-            <h1 className="App-title">Hoi {this.state.name}!</h1>
-          </header>
-
-          <div className="App-body">
+        <div className="App row">
+          <div className="col-lg-8">
             <Switch>
               <Route exact path="/">
-                <div className="row" style={{ flexGrow: 1 }}>
-                  <div
-                    className="col-lg-8 d-flex flex-column"
-                    style={{ height: '100%' }}
-                  >
-                    <Leaflet />
-                  </div>
-                </div>
+                <Leaflet />
+              </Route>
+              <Route exact path="/add-trek">
+                <AddTrek />
+              </Route>
+              <Route exact path="/share">
+                <Share />
+              </Route>
+              <Route exact path="/add-trek-manual">
+                <AddTrekManual />
+              </Route>
+              <Route exact path="/popup">
+                <Popup />
               </Route>
             </Switch>
           </div>
+          <header className="col-lg-4 d-flex flex-lg-column">
+            <div className="menu">
+              <div className="menu-item">
+                <i className="material-icons">settings</i>
+              </div>
+              <div className="menu-item">
+                <p>
+                  <i className="material-icons">perm_identity</i>{' '}
+                  {this.state.name}
+                </p>
+                <p>GO-77</p>
+              </div>
+              <div className="menu-item">
+                <i className="material-icons">list</i>
+              </div>
+              <div className="menu-item">
+                <i className="material-icons">map</i>
+              </div>
+              <div className="menu-item">
+                <i className="material-icons">share-variant</i>
+              </div>
+              <div className="menu-item">
+                <i className="material-icons">warning</i>
+              </div>
+            </div>
+          </header>
         </div>
       </Router>
     )
