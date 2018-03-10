@@ -12,17 +12,16 @@ export default class Login extends React.Component {
           <div className="add-trek-manual-block">
             <div className="text-center container ">
               <div>
-                <h4>Algemene trekgegevens</h4>
+                <h3 class="text-info">Algemene trekgegevens</h3>
                 <div className="input-group input-group-lg mb-4"><input type="text" placeHolder="10/03/2018 13:20" className="form-control" onChange={e => this.setState({name: e.target.value})}/></div>
-                <div className="input-group input-group-lg mb-4"><input type="datetime-local" placeHolder="Einddatum en -tijd" className="form-control" onChange={e => this.setState({name: e.target.value})}/></div>
-                <div className="input-group input-group-lg mb-4"><input type="text" placeHolder="51°37'; 03°20'; 4,5 knopen" className="form-control" onChange={e => this.setState({name: e.target.value})}/></div>
+                <div className="input-group input-group-lg mb-4"><input type="text" placeHolder="Einddatum en -tijd" className="form-control" onChange={e => this.setState({name: e.target.value})}/></div>
+                <div className="input-group input-group-lg mb-4"><input type="text" placeHolder="51°37'  03°20'" className="form-control" onChange={e => this.setState({name: e.target.value})}/></div>
+                <div className="input-group input-group-lg mb-4"><input type="text" placeHolder="4,5 knopen" className="form-control" onChange={e => this.setState({name: e.target.value})}/></div>
               </div>
             </div>
-          </div> <br/><br/><br/>
-          <div className="add-trek-manual-block">
             <div className="text-center container ">
               <div>
-                <h4>Trekregels</h4>
+                <h3 class="text-info">Trekregels</h3>
                 <table class="tg">
                   <tr>
                     <th class="">Vissoort</th>
@@ -50,7 +49,7 @@ export default class Login extends React.Component {
                   </tr>
                   <tr>
                     <td class="dropdown">
-                      <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      <button class="btn btn-secondary dropdown-toggle notsubmit" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         Vissoort
                       </button>
                       <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
@@ -70,7 +69,7 @@ export default class Login extends React.Component {
                       </div>
                     </td>
                     <td class="dropdown">
-                      <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      <button class="btn btn-secondary dropdown-toggle notsubmit" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         Opmerking
                       </button>
                       <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
@@ -85,16 +84,12 @@ export default class Login extends React.Component {
                 </table>
               </div>
             </div>
-          </div>
-          <div className="add-trek-manual-block">
             <div className="text-center container ">
               <div>
-                <h4>Persoonlijke notities</h4>
+                <h3 class="text-info">Persoonlijke notities</h3>
                 <div className="input-group input-group-lg mb-4"><textarea placeHolder="Persoonlijke notities" className="form-control" onChange={e => this.setState({name: e.target.value})}/></div>
               </div>
             </div>
-          </div>
-          <div className="add-trek-manual-block">
             <button type="submit" className="btn btn-block btn-lg btn-primary">Voer in</button>
 
           </div>
