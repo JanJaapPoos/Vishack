@@ -3,6 +3,7 @@ import Leaflet from './Leaflet'
 import Login from './components/Login'
 import AddTrek from './components/AddTrek'
 import AddTrekManual from './components/AddTrekManual'
+import Share from './components/Share'
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 
 class App extends Component {
@@ -25,6 +26,9 @@ class App extends Component {
               </Route>
               <Route exact path="/add-trek">
                 <AddTrek />
+              </Route>
+              <Route exact path="/share">
+                <Share />
               </Route>
               <Route exact path="/add-trek-manual">
                 <AddTrekManual />
