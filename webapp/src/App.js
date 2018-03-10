@@ -1,10 +1,11 @@
 import React, { Component } from 'react'
-import Leaflet from './Leaflet'
+import Leaflet from './components/Leaflet'
 import Login from './components/Login'
 import AddTrek from './components/AddTrek'
 import AddTrekManual from './components/AddTrekManual'
 import Share from './components/Share'
 import Popup from './components/Popup'
+import Menu from './components/Menu'
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 
 class App extends Component {
@@ -19,8 +20,8 @@ class App extends Component {
     }
     return (
       <Router>
-        <div className="App row">
-          <div className="col-lg-8">
+        <div className="App flex-column flex-lg-row">
+          <div className="App-body">
             <Switch>
               <Route exact path="/">
                 <Leaflet />
@@ -39,32 +40,7 @@ class App extends Component {
               </Route>
             </Switch>
           </div>
-          <header className="col-lg-4 d-flex flex-lg-column">
-            <div className="menu">
-              <div className="menu-item">
-                <i className="material-icons">settings</i>
-              </div>
-              <div className="menu-item">
-                <p>
-                  <i className="material-icons">perm_identity</i>{' '}
-                  {this.state.name}
-                </p>
-                <p>GO-77</p>
-              </div>
-              <div className="menu-item">
-                <i className="material-icons">list</i>
-              </div>
-              <div className="menu-item">
-                <i className="material-icons">map</i>
-              </div>
-              <div className="menu-item">
-                <i className="material-icons">share-variant</i>
-              </div>
-              <div className="menu-item">
-                <i className="material-icons">warning</i>
-              </div>
-            </div>
-          </header>
+          <Menu name={this.state.name} />
         </div>
       </Router>
     )

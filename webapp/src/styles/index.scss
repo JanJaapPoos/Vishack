@@ -3,18 +3,18 @@
   display: flex;
   height: 100vh;
   width: 100vw;
-}
-
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
+  align-items: stretch;
 }
 
 .App-header {
   background-color: #222;
-  height: 150px;
   padding: 20px;
   color: white;
+  flex: 0 0 (100% / 12);
+
+  @media (min-width: 992px) {
+    flex: 0 0 15%;
+  }
 }
 
 .App-title {
@@ -26,22 +26,15 @@
 }
 
 .App-body {
-  flex-grow: 1;
-  display: -webkit-flex;
-  display: -ms-flex;
   display: flex;
+  flex: 1 1 auto;
   flex-flow: column nowrap;
 }
 
 .leaflet-container {
-  height: 80vh;
+  height: 100%;
   width: 100%;
   flex-grow: 1;
-}
-
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
 }
 
 .login-form {
@@ -80,14 +73,39 @@
   }
 }
 
-.menu {
-  float: right;
-  background-color: rgba(255,255,255,0.5);
-  .menu-item {
-    height: 100px;
-    border-bottom: 1px solid black;
-    .material-icons {
-      font-size: 40pt;
+.menu-item {
+  color: white;
+  display: flex;
+  flex: 1 1 auto;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column nowrap;
+
+  & + & {
+    border-left: 1px solid black;
+    @media (min-width: 992px) {
+      border-left: 0px;
+      border-top: 1px solid black;
     }
   }
+
+  .material-icons {
+    font-size: 40pt;
+  }
+  &:hover {
+    text-decoration: none;
+  }
+}
+
+.map-selector {
+  background-color: #fff;
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  width: 15%;
+  min-width: 100px;
+  max-height: 40vh;
+  min-height: 100px;
+  overflow-y: scroll;
+  z-index: 1010;
 }
