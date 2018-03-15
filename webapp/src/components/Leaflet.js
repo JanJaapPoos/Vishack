@@ -17,13 +17,13 @@ const routes = [
   { value: 'week2', label: 'Week 2', map: route2 },
   { value: 'week3', label: 'Week 3', map: route3 },
   { value: 'week4', label: 'Week 4', map: route4 },
-  { value: 'week6', label: 'Deze week', map: route6 }
+  { value: 'week6', label: 'This week', map: route6 }
 ]
 const treks = [
   { value: 'week2', label: 'Week 2', map: week2 },
   { value: 'week3', label: 'Week 3', map: week3 },
   { value: 'week4', label: 'Week 4', map: week4 },
-  { value: 'week6', label: 'Deze week', map: week6 }
+  { value: 'week6', label: 'This week', map: week6 }
 ]
 
 const colors = ['#000', 'blue', 'green', 'orange']
@@ -82,7 +82,7 @@ export default class SimpleExample extends React.Component {
     const scale = chroma.scale(['red', 'yellow', 'green'])
     return [
       <div key="selector" className="map-selector text-left p-3">
-        <h3>Weken</h3>
+        <h3>Weeks</h3>
         <div className="row ml-0 small">
           <div className="col-2 p-0">
             <span className="small">route</span>
