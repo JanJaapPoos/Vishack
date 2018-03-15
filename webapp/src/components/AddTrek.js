@@ -4,7 +4,7 @@ import image from '../assets/login-form.jpg'
 export default class Login extends React.Component {
   render() {
     return (
-      <div className="trek" style={{backgroundImage: `url(${image})`}}>
+      <div className="trek" style={{height: '100vh', backgroundImage: `url(${image})`}}>
         <h1>Treks</h1>
         <div className="row">
           <div className="col-lg-8 trek-block">
@@ -13,7 +13,7 @@ export default class Login extends React.Component {
               <th class="">Date & time</th>
               <th class="">Location</th>
               <th class="">Speed</th>
-              <th class="">Weightt</th>
+              <th class="">Weight</th>
               <th class=""></th>
               </tr>
               <tr>
@@ -47,7 +47,7 @@ export default class Login extends React.Component {
             </table>
 
           </div>
-          <div className="col-lg-4 trek-block">
+          <div className="col-lg-4 trek-block" align="center">
             <div className="choice-button">
             <i className="material-icons">system_update_alt</i>
             <a href="#">

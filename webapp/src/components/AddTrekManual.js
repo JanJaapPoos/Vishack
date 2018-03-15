@@ -4,7 +4,7 @@ import image from '../assets/login-form.jpg'
 export default class Login extends React.Component {
   render() {
     return (
-      <div className="trek align-items-center login-form   justify-content-center d-flex" style={{backgroundImage: `url(${image})`}}>
+      <div className="trek align-items-center login-form   justify-content-center d-flex" style={{backgroundImage: `url(${image})`, height: '100vh'}}>
         <div className="trek-block " style={{maxWidth: '400px', flexGrow: 1}}>
         <h1>Add trek records</h1>
           <form className="" onSubmit={() => this.props.setName(this.state.name)}>
