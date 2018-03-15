@@ -4,29 +4,29 @@ import image from '../assets/login-form.jpg'
 export default class Login extends React.Component {
   render() {
     return (
-      <div className="add-trek">
-        <div className="add-trek-manual" style={{maxWidth: '400px', flexGrow: 1}}>
-          <h1>Noteer trekgegevens</h1>
-          <form style={{height: '100vh', width: '100vw', backgroundImage: `url(${image})`}} className="login-form d-flex align-items-center justify-content-center" onSubmit={() => this.props.setName(this.state.name)}>
+      <div className="trek align-items-center login-form   justify-content-center d-flex" style={{backgroundImage: `url(${image})`}}>
+        <div className="trek-block " style={{maxWidth: '400px', flexGrow: 1}}>
+        <h1>Add trek records</h1>
+          <form className="" onSubmit={() => this.props.setName(this.state.name)}>
 
           <div className="add-trek-manual-block">
             <div className="text-center container ">
               <div>
-                <h3 class="text-info">Algemene trekgegevens</h3>
+                <h3 class="text-info">General trek records</h3>
                 <div className="input-group input-group-lg mb-4"><input type="text" placeHolder="10/03/2018 13:20" className="form-control" onChange={e => this.setState({name: e.target.value})}/></div>
-                <div className="input-group input-group-lg mb-4"><input type="text" placeHolder="Einddatum en -tijd" className="form-control" onChange={e => this.setState({name: e.target.value})}/></div>
+                <div className="input-group input-group-lg mb-4"><input type="text" placeHolder="End date and time" className="form-control" onChange={e => this.setState({name: e.target.value})}/></div>
                 <div className="input-group input-group-lg mb-4"><input type="text" placeHolder="51°37'  03°20'" className="form-control" onChange={e => this.setState({name: e.target.value})}/></div>
-                <div className="input-group input-group-lg mb-4"><input type="text" placeHolder="4,5 knopen" className="form-control" onChange={e => this.setState({name: e.target.value})}/></div>
+                <div className="input-group input-group-lg mb-4"><input type="text" placeHolder="4,5 knots" className="form-control" onChange={e => this.setState({name: e.target.value})}/></div>
               </div>
             </div>
             <div className="text-center container ">
               <div>
-                <h3 class="text-info">Trekregels</h3>
+                <h3 class="text-info">Trek lines</h3>
                 <table class="tg">
                   <tr>
-                    <th class="">Vissoort</th>
-                    <th class="">Opmerking</th>
-                    <th class="">Gewicht</th>
+                    <th class="">Species</th>
+                    <th class="">Note</th>
+                    <th class="">Weight</th>
                     <th class=""></th>
                   </tr>
                   <tr>
@@ -50,7 +50,7 @@ export default class Login extends React.Component {
                   <tr>
                     <td class="dropdown">
                       <button class="btn btn-secondary dropdown-toggle notsubmit" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Vissoort
+                        Species
                       </button>
                       <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                         <a class="dropdown-item" href="#">Blonde rog</a>
@@ -70,7 +70,7 @@ export default class Login extends React.Component {
                     </td>
                     <td class="dropdown">
                       <button class="btn btn-secondary dropdown-toggle notsubmit" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Opmerking
+                        Note
                       </button>
                       <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                         <a class="dropdown-item" href="#">BMS</a>
@@ -78,7 +78,7 @@ export default class Login extends React.Component {
                       </div>
                     </td>
                     <td class="">
-                      <div className="input-group"><input type="text" placeHolder="Gewicht (kg)" className="form-control" onChange={e => this.setState({name: e.target.value})}/></div>
+                      <div className="input-group notsubmit"><input type="text" placeHolder="Weight (kg)" className="form-control" onChange={e => this.setState({name: e.target.value})}/></div>
                     </td>
                   </tr>
                 </table>
@@ -86,11 +86,11 @@ export default class Login extends React.Component {
             </div>
             <div className="text-center container ">
               <div>
-                <h3 class="text-info">Persoonlijke notities</h3>
-                <div className="input-group input-group-lg mb-4"><textarea placeHolder="Persoonlijke notities" className="form-control" onChange={e => this.setState({name: e.target.value})}/></div>
+                <h3 class="text-info">Personal notes</h3>
+                <div className="input-group input-group-lg mb-4"><textarea placeHolder="" className="form-control" onChange={e => this.setState({name: e.target.value})}/></div>
               </div>
             </div>
-            <button type="submit" className="btn btn-block btn-lg btn-primary">Voer in</button>
+            <button type="submit" className="btn btn-block btn-lg btn-primary">Submit</button>
 
           </div>
 
