@@ -50,15 +50,15 @@ export default class Login extends React.Component {
           <div className="col-lg-4 trek-block" align="center">
             <div className="choice-button">
             <i className="material-icons">system_update_alt</i>
-            <a href="#">
+            <Link to="#">
             <h4>Import Pulse Data Sheet (PDS)</h4>
-            </a>
+            </link>
             </div>
             <div className="choice-button">
-            <a href="/add-trek-manual">
+            <Link to="/add-trek-manual">
             <i className="material-icons">add_circle</i>
             <h4>Add trek data</h4>
-            </a>
+            </link>
             </div>
           </div>
         </div>
