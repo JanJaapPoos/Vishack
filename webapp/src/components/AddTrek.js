@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import image from '../assets/login-form.jpg'
 
 export default class Login extends React.Component {
@@ -49,16 +50,16 @@ export default class Login extends React.Component {
           </div>
           <div className="col-lg-4 trek-block" align="center">
             <div className="choice-button">
-            <i className="material-icons">system_update_alt</i>
-            <Link to="#">
-            <h4>Import Pulse Data Sheet (PDS)</h4>
-            </link>
+              <i className="material-icons">system_update_alt</i>
+              <Link to="/">
+                <h4>Import Pulse Data Sheet (PDS)</h4>
+              </Link>
             </div>
             <div className="choice-button">
-            <Link to="/add-trek-manual">
-            <i className="material-icons">add_circle</i>
-            <h4>Add trek data</h4>
-            </link>
+              <i className="material-icons">add_circle</i>
+              <Link to="/add-trek-manual">
+                <h4>Add trek data</h4>
+              </Link>
             </div>
           </div>
         </div>
