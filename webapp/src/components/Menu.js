@@ -23,7 +23,7 @@ const Menu = props => (
       <i className="material-icons">share</i>
       <p className="d-none d-lg-inline-block">Share</p>
     </Link>
-    <Link to="/meldingen" className="menu-item">
+    <Link to="/" className="menu-item">
       <i className="material-icons">warning</i>
       <p className="d-none d-lg-inline-block">Notifications</p>
     </Link>
