@@ -53,19 +53,19 @@ export default class Login extends React.Component {
                         Species
                       </button>
                       <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                        <a class="dropdown-item" href="#">Blonde rog</a>
-                        <a class="dropdown-item" href="#">Bot</a>
-                        <a class="dropdown-item" href="#">Gladde/gevlekte rog</a>
-                        <a class="dropdown-item" href="#">Grauwe poon</a>
-                        <a class="dropdown-item" href="#">Heek</a>
-                        <a class="dropdown-item" href="#">Heilbot</a>
-                        <a class="dropdown-item" href="#">Inktvis</a>
-                        <a class="dropdown-item" href="#">Koolvis</a>
-                        <a class="dropdown-item" href="#">Krab</a>
-                        <a class="dropdown-item" href="#">Krabbenpoten</a>
-                        <a class="dropdown-item" href="#">Kreeft</a>
-                        <a class="dropdown-item" href="#">Langoestine</a>
-                        <a class="dropdown-item" href="#">Etc.</a>
+                        <a class="dropdown-item" href="/">Blonde rog</a>
+                        <a class="dropdown-item" href="/">Bot</a>
+                        <a class="dropdown-item" href="/">Gladde/gevlekte rog</a>
+                        <a class="dropdown-item" href="/">Grauwe poon</a>
+                        <a class="dropdown-item" href="/">Heek</a>
+                        <a class="dropdown-item" href="/">Heilbot</a>
+                        <a class="dropdown-item" href="/">Inktvis</a>
+                        <a class="dropdown-item" href="/">Koolvis</a>
+                        <a class="dropdown-item" href="/">Krab</a>
+                        <a class="dropdown-item" href="/">Krabbenpoten</a>
+                        <a class="dropdown-item" href="/">Kreeft</a>
+                        <a class="dropdown-item" href="/">Langoestine</a>
+                        <a class="dropdown-item" href="/">Etc.</a>
                       </div>
                     </td>
                     <td class="dropdown">
@@ -73,8 +73,8 @@ export default class Login extends React.Component {
                         Note
                       </button>
                       <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                        <a class="dropdown-item" href="#">BMS</a>
-                        <a class="dropdown-item" href="#">Etc.</a>
+                        <a class="dropdown-item" href="/">BMS</a>
+                        <a class="dropdown-item" href="/">Etc.</a>
                       </div>
                     </td>
                     <td class="">
